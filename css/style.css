@@ -1,0 +1,40 @@
+/* basic css */
+
+* {
+    text-align: center;
+    color: black;
+}
+
+image {
+    width: 123px;
+    height: 142px;
+}
+
+
+
+.myClass {
+    font-style: italic;
+}
+
+
+p {
+    margin: auto;
+    width: 30%;
+    animation-name: animationEg;
+    animation-duration: 4s;
+    border: 1px solid grey;
+  }
+  
+@keyframes animationEg {
+    from {background-color: green;}
+    to {background-color: red;}
+}
+
+#myHeader {
+    margin: auto;
+    width: 70%;
+}
+
+#myBtn:hover {
+background-color: yellow;
+}
